@@ -24,24 +24,25 @@ To clone the git repository:
 
 git clone https://github.com/abg3/udacity-disaster-response-pipeline.git
 
-Running the application:
+# Running the application
+
 You can run the following commands in the project's directory to set up the database, train the model and save the model.
 
 To run ETL pipeline for cleaning data and store the processed data in the database:
 
 Run the below command from the terminal-
 
-# python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 
 To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file:
 
 Run the below command from the terminal-
 
-# python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 
 Run the following command in the app's directory to run your web app-
 
-# python run.py
+python run.py
 
 Open a browser and go to http://0.0.0.0:3001/. Tou can input any message and see the results.
 
