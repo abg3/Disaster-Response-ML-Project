@@ -32,19 +32,19 @@ To run ETL pipeline for cleaning data and store the processed data in the databa
 
 Run the below command from the terminal-
 
-python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+- python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 
-To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file:
+- To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file:
 
 Run the below command from the terminal-
 
-python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+- python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 
 Run the following command in the app's directory to run your web app-
 
-python run.py
+- python run.py
 
-Open a browser and go to http://0.0.0.0:3001/. Tou can input any message and see the results.
+Open a browser and go to http://0.0.0.0:3001/. You can input any message and see the results.
 
 # Notebooks
 
@@ -70,3 +70,4 @@ disaster screenshots: This is to see how the website looks like.
 #Acknowledgements
 
 Thank you Udacity and Figure Eight for providing the dataset and an opportunity to work on this project.
+
