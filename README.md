@@ -2,7 +2,7 @@
 This project involves ETL and a Machine Learning Pipeline implementation that classifies tweets to assist people with a disaster emergency response using a Flask Web App.
 
 
-# Instructions:
+# Instructions
 
 This project is divided in 3 sections:
 
@@ -13,11 +13,11 @@ This project is divided in 3 sections:
 # Dependencies
 
 - Python 3.5+
-Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
-Natural Language Process Libraries: NLTK
-SQLlite Database Libraqries: SQLalchemy
-Model Loading and Saving Library: Pickle
-Web App and Data Visualization: Flask, Plotly
+- Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
+- Natural Language Process Libraries: NLTK
+- SQLlite Database Libraqries: SQLalchemy
+- Model Loading and Saving Library: Pickle
+- Web App and Data Visualization: Flask, Plotly
 
 # Installation
 To clone the git repository:
@@ -67,3 +67,6 @@ run.py: This file is used to launch the Flask web app to classify disaster tweet
 
 disaster screenshots: This is to see how the website looks like.
 
+#Acknowledgements
+
+Thank you Udacity and Figure Eight for providing the dataset and an opportunity to work on this project.
