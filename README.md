@@ -22,7 +22,7 @@ This project is divided in 3 sections:
 # Installation
 To clone the git repository:
 
-git clone https://github.com/abg3/udacity-disaster-response-pipeline.git
+git clone https://github.com/abg3/Disaster-Response-ML-Project.git
 
 # Running the application
 
