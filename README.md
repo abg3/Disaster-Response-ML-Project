@@ -34,7 +34,7 @@ Run the below command from the terminal-
 
 - python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 
-- To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file:
+To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file:
 
 Run the below command from the terminal-
 
