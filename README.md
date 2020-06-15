@@ -12,7 +12,7 @@ This project is divided in 3 sections:
 
 # Dependencies
 
-Python 3.5+
+- Python 3.5+
 Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
 Natural Language Process Libraries: NLTK
 SQLlite Database Libraqries: SQLalchemy
