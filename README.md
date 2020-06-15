@@ -67,7 +67,7 @@ run.py: This file is used to launch the Flask web app to classify disaster tweet
 
 disaster screenshots: This is to see how the website looks like.
 
-#Acknowledgements
+# Acknowledgements
 
 Thank you Udacity and Figure Eight for providing the dataset and an opportunity to work on this project.
 
